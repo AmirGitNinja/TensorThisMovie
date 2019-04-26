@@ -5,7 +5,7 @@
 -----------------
 # Tensor This Movie
 
-The project allows you to upload a video, while during playing-time the app detects the objects that are shown in the screen, using tensorflow and COCO-SSD model.
+The project allows you to upload a video, while during playing-time the app detects the objects that are shown in the screen, using **TensorFlow** and COCO-SSD model.
 
 The project's was inspired by the "The Future of JavaScript is A.I" session at Israel YGLF conference 2019.
 
