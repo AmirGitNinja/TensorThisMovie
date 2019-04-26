@@ -28,5 +28,3 @@ the demo app in your browser.
 ```sh
 yarn watch
 ```
-
-# yglf-2019-ai
