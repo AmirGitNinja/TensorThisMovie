@@ -12,7 +12,7 @@ You can see the live demo right here -> [Github Pages]()
 `git clone` the project:
 
 ```sh
-git clone https://github.com/Slash7GNR/yglf-2019-ai.git
+git clone https://github.com/AmirGitNinja/TensorThisMovie.git
 cd TensorThisMovie
 ```
 
