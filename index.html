@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <title>TensorFlow this Clip!</title>
+  <link rel="stylesheet" href="assets/loading.css">
+  <link rel="stylesheet" href="scss/loaderAnimation.scss">
+  <link rel="stylesheet" href="scss/fileArea.scss">
+  <link rel="stylesheet" href="assets/movie.css">
+</head>
+
+<body>
+  <div id="loading" class="container ">
+    <div class="formWrapper">
+    </div>
+    <div class="loading-window">
+      <div class="car">
+        <div class="strike"></div>
+        <div class="strike strike2"></div>
+        <div class="strike strike3"></div>
+        <div class="strike strike4"></div>
+        <div class="strike strike5"></div>
+        <div class="car-detail spoiler"></div>
+        <div class="car-detail back"></div>
+        <div class="car-detail center"></div>
+        <div class="car-detail center1"></div>
+        <div class="car-detail front"></div>
+        <div class="car-detail wheel"></div>
+        <div class="car-detail wheel wheel2"></div>
+      </div>
+
+      <div class="text">
+        <span>Loading</span><span class="dots">...</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="main" class="container hide">
+    <div class="file-area">
+        <input id="fileInput" type="file" accept="video/*" class="hide" />
+        <button id="fileChooseBtn" class="bubbly-button">Choose Your Video</button>
+        <object id="fileNameObject" type="image/svg+xml" data="assets/typer.svg" ></object>
+    </div>
+    <div class="main-wrapper">
+      <canvas id="canvas" width="1280" height="720" ></canvas>
+      <video id="vid" controls width="1280" height="720" class="vid">
+        <source src="assets/DemoVideo.mp4" type="video/mp4">
+      </video>
+      <button id="playBtn" class='button play'></button>
+    </div>
+  </div>
+
+  <script src="js/fileArea.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

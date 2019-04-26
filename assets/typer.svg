@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="svgobj" width="1280" height="50" viewBox="0 80 1280 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+	<style>
+		#textSvg {
+		fill: white;
+		}
+	</style>
+	<path id="path">
+		<animate id="pathAnimation" attributeName="d" from="m0,110 h0" to="m0,110 h1100" dur="1.2s" begin="indefinite" repeatCount="1" fill="freeze" />
+	</path>
+	<text id="textSvg" font-size="20" font-family="Montserrat" x="50%" y="50%">
+		<textPath id="svgtext" text-anchor="middle" xlink:href="#path"></textPath>
+	</text>
+</svg>
