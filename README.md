@@ -5,7 +5,7 @@ The project allows you to upload a video, while during playing-time the app dete
 The project's was inspired by the "The Future of JavaScript is A.I" session at Israel YGLF conference 2019.
 
 ## See the project
-This site was built using [Github Pages]()
+You can see the live demo right here -> [Github Pages]()
 
 ## Setup
 
