@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="assets/tensor-logo.png">
+</div>
+
+-----------------
 # Tensor This Movie
 
 The project allows you to upload a video, while during playing-time the app detects the objects that are shown in the screen, using tensorflow and COCO-SSD model.
