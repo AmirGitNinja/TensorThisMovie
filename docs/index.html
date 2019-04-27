@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.f5f6aa00.ico">
+  <title>Tensor This Movie!</title>
+  <link rel="stylesheet" href="loading.db7f7f28.css">
+  <link rel="stylesheet" href="loaderAnimation.e73c3731.css">
+  <link rel="stylesheet" href="fileArea.e8c8a062.css">
+  <link rel="stylesheet" href="movie.6ca8cfe1.css">
+</head>
+
+<body>
+  <div id="loading" class="container ">
+    <div class="formWrapper">
+    </div>
+    <div class="loading-window">
+      <div class="car">
+        <div class="strike"></div>
+        <div class="strike strike2"></div>
+        <div class="strike strike3"></div>
+        <div class="strike strike4"></div>
+        <div class="strike strike5"></div>
+        <div class="car-detail spoiler"></div>
+        <div class="car-detail back"></div>
+        <div class="car-detail center"></div>
+        <div class="car-detail center1"></div>
+        <div class="car-detail front"></div>
+        <div class="car-detail wheel"></div>
+        <div class="car-detail wheel wheel2"></div>
+      </div>
+
+      <div class="text">
+        <span>Loading</span><span class="dots">...</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="main" class="container hide">
+    <div class="file-area">
+        <input id="fileInput" type="file" accept="video/*" class="hide">
+        <button id="fileChooseBtn" class="bubbly-button">Choose Your Video</button>
+        <object id="fileNameObject" type="image/svg+xml" data="typer.6fd3b0a3.svg"></object>
+    </div>
+    <div class="main-wrapper">
+      <canvas id="canvas" width="1280" height="720"></canvas>
+      <video id="vid" controls="" width="1280" height="720" class="vid">
+        <source src="DemoVideo.ca2bde38.mp4" type="video/mp4">
+      </video>
+      <button id="playBtn" class="button play"></button>
+    </div>
+  </div>
+
+  <script src="fileArea.8f44ffd1.js"></script>
+  <script src="js.ec18e993.js"></script>
+</body>
+
+</html>
