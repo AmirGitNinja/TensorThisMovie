@@ -67,16 +67,3 @@ video::-webkit-media-controls-fullscreen-button {
     50% {transform: translate(-50%, -50%) scale(1.2);}
     100% {transform: translate(-50%, -50%) scale(1);}
   } 
-
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
-     #playBtn {
-      display: none;
-  }
-}
-
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
-     #playBtn {
-      display: none;
-  }
-}
-
