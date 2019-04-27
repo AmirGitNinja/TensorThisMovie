@@ -73,4 +73,12 @@ video::-webkit-media-controls-fullscreen-button {
   #playBtn {
       display: none;
   }
+  #canvas {
+    width: 640px;
+    height: 360px;
+  }
+  #vid {
+    width: 640px;
+    height: 360px;
+  }  
 }
