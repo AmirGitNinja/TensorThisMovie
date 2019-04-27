@@ -67,3 +67,10 @@ video::-webkit-media-controls-fullscreen-button {
     50% {transform: translate(-50%, -50%) scale(1.2);}
     100% {transform: translate(-50%, -50%) scale(1);}
   } 
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #playBtn {
+      display: none;
+  }
+}
