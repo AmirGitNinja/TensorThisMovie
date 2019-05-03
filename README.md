@@ -10,7 +10,7 @@ The project allows you to upload a video, while during playing-time the app dete
 The project's was inspired by the "The Future of JavaScript is A.I" session at Israel YGLF conference 2019.
 
 ## See the project
-You can see the live demo right here -> [Github Pages]()
+You can see the live demo right here -> [Github Pages](https://amirgitninja.github.io/TensorThisMovie/)
 
 ## Setup
 
